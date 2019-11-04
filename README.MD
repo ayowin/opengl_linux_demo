@@ -17,6 +17,6 @@ opengl_linux_demo project demo base on 'glfw' , 'glad' enviroment.*
 ## compile 01_trangle.cpp
 
 ```shell
-	g++ 01_trangle.cpp *.c -o opengl_linux_demo -I./include -L./lib -lglfw3 -lpthread -ldl -lm -lGL -lGLU -lX11
+	g++ 01_triangle.cpp *.c -o opengl_linux_demo -I./include -L./lib -lglfw3 -lpthread -ldl -lm -lGL -lGLU -lX11
 ```
 
